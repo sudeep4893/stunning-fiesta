@@ -1,0 +1,14 @@
+package com.practice;
+
+public class PracticeJava {
+
+	public static void foo(){
+		System.out.println("Test Static Method");
+	}
+	
+	public static void main(String[] args) {
+		PracticeJava.foo();
+		
+	}
+
+}

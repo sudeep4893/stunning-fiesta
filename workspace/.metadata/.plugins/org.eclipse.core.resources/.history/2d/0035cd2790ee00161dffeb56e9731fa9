@@ -1,0 +1,40 @@
+package com.psl.util;
+
+import java.util.List;
+import java.util.Set;
+
+import com.psl.bean.Dish;
+import com.psl.bean.Location;
+import com.psl.bean.Order;
+
+public class DominozPizzaDeliveryImpl implements DominozPizzaDelivery {
+
+	@Override
+	public void populateData(String dishFile, String locationFile,
+			List<Dish> dishs, Set<Location> locations) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void calculateLocationForDistance(List<Dish> dishs,
+			Set<Location> locations) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Order> calculateOrder(String orderFile, List<Dish> dishs,
+			Set<Location> locations) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void freeDelivery(List<Order> orders, List<Dish> dishs,
+			Set<Location> locations) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

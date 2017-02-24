@@ -1,0 +1,145 @@
+!SESSION 2017-02-09 11:29:12.296 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-02-09 11:30:49.848
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2017-02-09 11:30:49.967
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.eclipse.ui 4 0 2017-02-09 11:31:26.173
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Control.getParent(Control.java:1377)
+	at org.eclipse.ui.part.PageBook.showPage(PageBook.java:99)
+	at com.springsource.sts.internal.ide.ui.editors.DashboardMainPage.displayFeeds(DashboardMainPage.java:1001)
+	at com.springsource.sts.internal.ide.ui.editors.DashboardMainPage.access$4(DashboardMainPage.java:988)
+	at com.springsource.sts.internal.ide.ui.editors.DashboardMainPage$5.run(DashboardMainPage.java:384)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 22 more
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.048
+!MESSAGE NLS unused message: add_script_load_bp in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.140
+!MESSAGE NLS unused message: bp_conditional in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.206
+!MESSAGE NLS unused message: bp_conditonal in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.207
+!MESSAGE NLS unused message: bp_entry_and_exit in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.246
+!MESSAGE NLS unused message: bp_entry_only in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.247
+!MESSAGE NLS unused message: bp_exit_only in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.271
+!MESSAGE NLS unused message: bp_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.291
+!MESSAGE NLS unused message: bp_line_number in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.349
+!MESSAGE NLS unused message: bp_suspend_vm in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.402
+!MESSAGE NLS unused message: breakpoint_configuration in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.427
+!MESSAGE NLS unused message: connect in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.472
+!MESSAGE NLS unused message: connector in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.491
+!MESSAGE NLS unused message: connector_properties in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.492
+!MESSAGE NLS unused message: creating_script_load_bp in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.514
+!MESSAGE NLS unused message: enable_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.554
+!MESSAGE NLS unused message: enter_new_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.555
+!MESSAGE NLS unused message: exception_occurred_setting_bp_properties in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.596
+!MESSAGE NLS unused message: hit_count_must_be_positive in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.597
+!MESSAGE NLS unused message: no_description_provided in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.661
+!MESSAGE NLS unused message: scripts in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.663
+!MESSAGE NLS unused message: select_javascript_file in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.683
+!MESSAGE NLS unused message: set_bp_hit_count in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.721
+!MESSAGE NLS unused message: suspend_target in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.754
+!MESSAGE NLS unused message: suspend_thread in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.784
+!MESSAGE NLS unused message: the_argument_0_is_not_valid in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-02-17 10:18:45.796
+!MESSAGE NLS unused message: osgi.nls.warnings in: org.eclipse.wst.jsdt.debug.internal.ui.messages
+!SESSION 2017-02-20 10:33:42.235 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-02-20 10:33:50.275
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

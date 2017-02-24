@@ -1,0 +1,40 @@
+package com.practice;
+
+import java.util.HashMap;
+
+public class DuplicateWordsInString {
+
+	public static void duplicateWords(String word){
+		
+		String[] words = word.split(" ");
+		HashMap<String, Integer> wordCount = new HashMap<String, Integer>();
+		for(String i : words){
+			System.out.println(i);
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("test duplicate words in string");
+		duplicateWords("Bread butter and bread");
+		
+		
+		System.out.println("---------------------------");
+		
+		String s = "Java is java again java again";
+		char c = 'a';
+		int count = s.length()- s.replace("a", "").length();
+		
+		System.out.println(count);
+		
+		System.out.println("-----------------------------");
+		StringBuffer sb = new StringBuffer("MyJava");
+		System.out.println(sb.reverse());
+		
+		
+		
+		
+	}
+
+}

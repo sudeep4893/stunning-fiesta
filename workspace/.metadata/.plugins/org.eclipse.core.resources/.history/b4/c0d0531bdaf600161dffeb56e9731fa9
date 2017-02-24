@@ -1,0 +1,17 @@
+package com.practice;
+
+public class DuplicateWordsInString {
+
+	public void duplicateWords(String word){
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("test duplicate words in string");
+		duplicateWords("sudeep");
+		
+	}
+
+}

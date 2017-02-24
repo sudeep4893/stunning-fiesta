@@ -1,0 +1,29 @@
+package com.practice;
+
+
+public class StringOperation {
+
+	
+	public static void main(String[] args) {
+		
+		int count = 1;
+		
+		System.out.println("****************************************");
+		System.out.println("input : aabbbccaaaa to output : a2b3c2a4");
+		System.out.println("****************************************");
+		
+		String word = new String("aabbbccaaaa");
+		char[] stringArray = word.toCharArray();
+		for(int i = 0; i<stringArray.length ; i++){
+			System.out.print(stringArray[i]+ " ");
+			if(stringArray[i]==stringArray[i+1]){
+				count = count +1;
+				System.out.println(count);
+			}else{
+				System.out.println("***");
+			}
+		}
+
+	}
+
+}
